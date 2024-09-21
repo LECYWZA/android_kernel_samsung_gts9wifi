@@ -4,7 +4,7 @@
 
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 toolchain
 
-sudo apt-get install flex bison make libssl-dev libelf-dev libdw-dev binutils -y
+sudo apt-get install flex bison make libssl-dev libelf-dev libdw-dev binutils dwarves -y
 
 # 设置 clang 的路径，假设已经安装在系统路径
 export PATH=/build/clang/bin:$PATH
